@@ -26,7 +26,9 @@ struct ContentView: View {
                        }
                        
                    }.preferredColorScheme(.dark)
-                       .navigationBarHidden(true)
+                .navigationTitle("")
+                .navigationBarTitleDisplayMode(.inline)
+                .navigationBarHidden(true)
                    
                    
                }

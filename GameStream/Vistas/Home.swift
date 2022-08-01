@@ -180,7 +180,8 @@ struct subModuloHome: View {
                 
                 Button {
                     
-                } label: {
+                }
+                label: {
                     ZStack{
                         RoundedRectangle(cornerRadius: 9)
                             .fill(Color("JewelDark"))
@@ -202,7 +203,8 @@ struct subModuloHome: View {
                 
                 Button {
                     
-                } label: {
+                }
+                label: {
                     ZStack{
                         RoundedRectangle(cornerRadius: 9)
                             .fill(Color("JewelDark"))
@@ -224,7 +226,8 @@ struct subModuloHome: View {
                 
                 Button {
                     
-                } label: {
+                }
+            label: {
                     ZStack{
                         RoundedRectangle(cornerRadius: 9)
                             .fill(Color("JewelDark"))
@@ -465,7 +468,6 @@ struct subModuloHome: View {
             print("Cantidad E: \(juegoEncontrado.gameInfo.count)")
             
             if juegoEncontrado.gameInfo.count == 0 {
-                
                 isGameInfoEmpty = true
             }else {
                 url = juegoEncontrado.gameInfo[0].videosUrls.mobile
